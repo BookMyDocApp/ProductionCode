@@ -1,0 +1,22 @@
+#for appointment_status table;
+insert into appointment_status values(1,"scheduled");
+insert into appointment_status values(2,"completed");
+insert into appointment_status values(3,"cancelled");
+insert into appointment_status values(4,"cancellation requested");
+
+#for questions table;
+insert into questions values(1,"what is your nickname ?");
+insert into questions values(2,"what is your native place ?");
+insert into questions values(3,"what is your favourite movie ?");
+insert into questions values(4,"what is your favourite actor ?");
+insert into questions values(5,"what is your favourite color ?");
+
+
+#for roles table;
+insert into roles values(1,"Admin");
+insert into roles values(2,"Doctor");
+insert into roles values(3,"Patient");
+
+#for admin insertion
+insert into address values(1,'Adminchowk','AdminCity',123456,'Maharashtra');
+insert into users values(1,'bahubali','9876543210','admin@gmail.com','admin','Male','admin','$@Aa12345',1,1,1);

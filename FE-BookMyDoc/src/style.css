@@ -1,0 +1,108 @@
+
+.contactus {
+
+   
+   width: 80%;
+    max-width: 370px;
+   /* border: 1px solid blue;*/
+    position: absolute;
+
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+
+    border-radius: .75rem;
+    padding:20px;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 20px;
+    text-shadow: 2px 2px 5px;
+    
+   /* text-shadow: 4px;
+   outline-style: ridge;
+    outline: thick ridge skyblue;
+    border-width: medium;*/
+}
+
+.contact{
+
+   /* border:1px solid  black;*/
+    border-radius:2px;
+
+   
+}
+
+.pat{
+    background-image: url(../src/images/image6.jpg);
+    /*background-color:antiquewhite;*/
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pat1 form,h2{
+    background-color: lightblue;
+    
+}
+.fon{
+    font-family: 'Sansita Swashed', cursive;
+    background-color:aquamarine; 
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+.font{
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.fon b{
+   /* background-color: lightblue;*/
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.doc{
+    background-image: url(../src/images/image6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutus p{
+    font-family: 300px;
+    font-size:medium;
+    font-family: 'Sansita Swashed', cursive;
+}
+.aboutus h4{
+    background-color:aqua;
+    color: black;
+    font-size: 20px;
+    
+}
+
+
+
+.body {
+    background-color: lightblue;
+    
+  }
+
+
+.aboutus{
+    font-family: 'Sansita Swashed', cursive;
+    background-image: url("../src/images/image8.jpg");
+    background-repeat: no-repeat;
+}
+
+.image
+{
+    background-image: url(../src/images/image5.jpg);
+   
+}
+
+/*.image1{
+
+    background-image: url(../src/images/image6.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}*/
