@@ -28,6 +28,7 @@ public class UserController {
 	@Autowired
 	private SaltValue saltval;
 
+//User sill authenticate here 
 	@PostMapping("/login")
 	public ResponseEntity<?> loginCheck(@RequestBody Login login) {
 		// System.out.println(login.getPassword()); //for password view
@@ -37,6 +38,7 @@ public class UserController {
 		return ResponseEntity.ok().body(userService.getLogin(login.getEmail(), login.getPassword()));
 	}
 
+//if user forget password it will e reseted using the answer already answer given by user at the time of login
 	@GetMapping("/getQuestionAnswer")
 	public ResponseEntity<?> getQuestionAnswer(@RequestParam("email") String email) {
 		return ResponseEntity.status(HttpStatus.FOUND).body(userService.getQuestionAnswer(email));
