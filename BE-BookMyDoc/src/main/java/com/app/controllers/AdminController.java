@@ -23,6 +23,7 @@ public class AdminController {
 	@Autowired
 	private AdminService adminService;
 
+//cancellation of request sended to doctor if not approved.
 	@GetMapping("/cancellationRequestedAppointments")
 	public ResponseEntity<?> cancellationRequestedAppointments() {
 		List<Appointment> appointments = adminService.cancellationRequestedAppointments();
@@ -34,6 +35,7 @@ public class AdminController {
 		}
 	}
 
+//Admin will check appoint sended by patients and approved if it is in specified period.
 	@GetMapping("/approveAppointmentCancellation")
 	public ResponseEntity<?> approveAppointmentCancellation(@RequestParam("app_id") int app_id) {
 		boolean cancellationApproved = adminService.approveAppointmentCancellation(app_id);
